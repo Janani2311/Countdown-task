@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(58, 56, 56);
+}
+
+
+#root{
+    text-align: center;
+    position: relative;
+    top:250px
+}
+
+h1{
+    font-family:"Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #dc1010;
+    font-size: 5em;
+    text-shadow: 1px 1px 2px black,
+    0 0 1em rgb(10, 194, 240),
+    0 0 0.2em rgb(10, 194, 240);
+}
+
+@media screen and (max-width:600px) {
+    h1{
+        font-size: 3em;
+    }
+}
